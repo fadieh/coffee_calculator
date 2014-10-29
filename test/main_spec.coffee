@@ -9,3 +9,6 @@ describe 'Knows what...', ->
 
 	it 'can add numbers', ->
 		expect(main.addition(1,2)).to.equal 3
+
+	it 'can subtract numbers', ->
+		expect(main.subtraction(2,1)).to.equal 1
