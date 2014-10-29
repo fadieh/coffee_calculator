@@ -9,4 +9,7 @@ class Main
 	division: (number1, number2) ->
 		number1 / number2
 
+	multiply: (number1, number2) ->
+		number1 * number2
+
 module.exports = Main
