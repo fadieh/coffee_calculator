@@ -12,3 +12,6 @@ describe 'Knows what...', ->
 
 	it 'can subtract numbers', ->
 		expect(main.subtraction(2,1)).to.equal 1
+
+	it 'can divide numbers', ->
+		expect(main.division(10,5)).to.equal 2
