@@ -2,17 +2,19 @@
   "name": "coffee_messaround",
   "version": "1.0.0",
   "description": "Messing around in CoffeeScript",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers coffee:coffee-script/register -R spec"
   },
   "author": "Fadie",
   "license": "ISC",
   "dependencies": {
     "chai": "^1.9.2",
-    "mocha": "^2.0.1"
+    "expect": "^0.1.1",
+    "mocha": "^2.0.1",
+    "zombie": "^2.1.1"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0"
   }
 }
