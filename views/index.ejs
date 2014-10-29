@@ -1,1 +1,14 @@
 <h1>Calculator</h1>
+
+<form method="post">
+    <input id="number1" type="number" name="number1"><br>
+    <input id="number2" type="number" name="number2"><br>
+    <input type="radio" name="maths" value="addition">+<br>
+	<input type="radio" name="maths" value="subtraction">-<br>
+	<input type="radio" name="maths" value="division">%<br>
+	<input type="radio" name="maths" value="multiply">*<br>
+    <input type="submit">
+
+</form>
+
+<p> <%= locals.result ? result : "" %> </p>
