@@ -2,7 +2,7 @@
   "name": "coffee_messaround",
   "version": "1.0.0",
   "description": "Messing around in CoffeeScript",
-  "main": "",
+  "main": "server.js",
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register -R spec"
   },
@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^1.9.2",
+    "ejs": "^1.0.0",
     "expect": "^0.1.1",
+    "express": "^4.10.1",
     "mocha": "^2.0.1",
     "zombie": "^2.1.1"
   },
